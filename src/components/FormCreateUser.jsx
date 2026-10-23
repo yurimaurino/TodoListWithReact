@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function ButtonCreateUser({aoEnviar, carregando}){
+function FormCreateUser({aoEnviar, carregando}){
 
   const [username, setUsername] = useState('')
   const [name, setName] = useState('')
@@ -48,4 +48,4 @@ function ButtonCreateUser({aoEnviar, carregando}){
   
 }
 
-export default ButtonCreateUser
+export default FormCreateUser

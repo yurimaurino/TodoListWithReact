@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import Login from './pages/Login'
 import HomePage from './pages/HomePage'
@@ -15,8 +15,7 @@ function App() {
   }, [])
 
   const handleLoginSucess = (dadosUsuario) => {
-    setUsuarioLogado(dadosUsuario
-    )
+    setUsuarioLogado(dadosUsuario)
   }
 
   if (usuarioLogado){

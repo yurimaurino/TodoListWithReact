@@ -281,7 +281,6 @@ function HomePage({ usuario, setUsuarioLogado }) {
 
             {statusTarefa && (
               <div
-                role="status"
                 className={`status-message ${
                   mensagemErro ? "status-error" : "status-success"
                 }`}
